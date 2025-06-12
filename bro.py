@@ -732,10 +732,10 @@ def data_pesanan():
         while True:
             try:
                 berat = float(input("Masukkan berat cucian (kg, contoh: 45.5): ").strip())
-                if berat > 0 and int(berat) < 100:
+                if berat > 0 and int(berat) < 10:
                     break
                 else:
-                    print("Berat cucian harus lebih dari 0 dan maksimal 2 digit sebelum koma (misal 99.99).")
+                    print("Berat cucian harus lebih dari 0 dan maksimal 2 digit sebelum koma (misal 7.12).")
             except ValueError:
                 print("Masukkan berat cucian berupa angka.")
 
