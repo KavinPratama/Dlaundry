@@ -347,10 +347,10 @@ def aktivitas_staf():
         print(tabel)
 
         try:
-            nomor = int(input("\nMasukkan nomor pesanan yang akan diurus staf: "))
+            nomor = int(input("\nMasukkan nomor pesanan yang akan diurus staf: tekan 0 untuk kembali: "))
             if nomor < 1 or nomor > len(df_display):
                 print("Nomor pesanan tidak valid.")
-                aktivitas_staf()
+                inpo_staf()
                 return
 
 
@@ -488,17 +488,17 @@ def urutan_pesanan_perstaf():
 def jump_search(data, target, keyf):
     panjang = len(data)
 
-    step = 1
-    while step * step < panjang:
-        step += 1
+    langkah = 1
+    while langkah * langkah < panjang:
+        langkah += 1
 
     i = 0
     while i < panjang:
         if keyf(data[i]) >= target:
             break
-        i += step
+        i += langkah
 
-    j = i - step
+    j = i - langkah
     if j < 0:
         j = 0
     while j < panjang and j <= i:
