@@ -1,9 +1,10 @@
 username,Nama,No Hp,Berat /Kg,Metode cucian,Total,Metode Pembayaran,Pesanan Dibuat,Estimasi Selesai,Ditugaskan ke,Status
 felo@Dlaundry,fel,927392,2.8,Reguler,14000,Tunai,2025-06-06,2025-06-09,Adelle,Selesai
 felo@Dlaundry,fel,23792,3.8,Express,38000,Tunai,2025-06-06,2025-06-07,Bieber,Diterima
-domi@Dlaundry,dloicat,28032,3.1,Express,31000,Tunai,2025-06-06,2025-06-07,Qolbi,Diterima
+domi@Dlaundry,dloicat,28032,3.1,Express,31000,Tunai,2025-06-06,2025-06-07,Qolbi,Siap diambil
 lomang@Dlaundry,kelomang,283972,2.9,Reguler,14500,Transfer,2025-06-06,2025-06-09,Qolbi,Selesai
 hahanana@Dlaundry,hanni,283918,5.2,Reguler,26000,Transfer,2025-06-06,2025-06-09,azz,Diterima
 okok@Dlaundry,oktavi,283927,5.7,Reguler,28500,Transfer,2025-06-06,2025-06-09,Qolbi,Selesai
 felo@Dlaundry,felose,2893,4.2,Reguler,21000,Tunai,2025-06-06,2025-06-09,Bieber,Selesai
-hely@Dlaundry,heli,813355662541,4.9,Reguler,24500,Tunai,2025-06-07,2025-06-10,Qolbi,Diproses
+hely@Dlaundry,heli,813355662541,4.9,Reguler,24500,Tunai,2025-06-07,2025-06-10,Qolbi,Selesai
+hely@Dlaundry,yanto,89172635421,2.0,Express,20000,Transfer,2025-06-12,2025-06-13,Qolbi,Diproses
